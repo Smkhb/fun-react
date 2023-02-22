@@ -15,9 +15,46 @@
 }
 body{
   height: 100vh;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.App{
+  background-color: cadetblue;
+  padding: 32px;
+  font-size: 20px;
+  border-radius: 8px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.App h2{
+  margin: 0;
+}
+
+.App .Input_Nome{
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: gray;
+  outline: none;
+  box-shadow: 4px 4px 4px rgba(112, 128, 144, 0.8);
+}
+
+.App .Btn_contador {
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: gray;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 4px 4px 4px rgba(112, 128, 144, 0.8);
+  transition: ease-in-out 0.2s;
+}
+
+.App .Btn_contador:hover{
+  color: cadetblue;
 }
 
